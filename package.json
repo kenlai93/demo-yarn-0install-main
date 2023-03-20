@@ -16,5 +16,8 @@
   "scripts": {
     "test": "jest",
     "build": "yarn node ./build.js"
+  },
+  "dependencies": {
+    "demo-yarn-0install-libs": "git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git"
   }
 }

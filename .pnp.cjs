@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/jest", "npm:29.5.0"],\
             ["@types/node", "npm:18.15.3"],\
-            ["dts-bundle-generator", "npm:7.2.0"],\
+            ["demo-yarn-0install-libs", "git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#commit=c4053b59be1580f2f3b61e9a9a0c99f1da50104a"],\
             ["esbuild", "npm:0.17.12"],\
             ["jest", "virtual:82f66daeed04e3850d3f1d383ce59977a7bf387c1601b6b4b51c3788b32409e2d33d200dd4b082edde232c476f9300db0235e1ffbd244093b644e81eaa98d875#npm:29.5.0"],\
             ["jest-pnp-resolver", "virtual:82f66daeed04e3850d3f1d383ce59977a7bf387c1601b6b4b51c3788b32409e2d33d200dd4b082edde232c476f9300db0235e1ffbd244093b644e81eaa98d875#npm:1.2.3"],\
@@ -2307,6 +2307,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["demo-yarn-0install-libs", [\
+        ["git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#commit=c4053b59be1580f2f3b61e9a9a0c99f1da50104a", {\
+          "packageLocation": "./.yarn/cache/demo-yarn-0install-libs-git+ssh-f2acfd3f2a-77c811ded1.zip/node_modules/demo-yarn-0install-libs/",\
+          "packageDependencies": [\
+            ["demo-yarn-0install-libs", "git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#commit=c4053b59be1580f2f3b61e9a9a0c99f1da50104a"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["demo-yarn-0install-main", [\
         ["workspace:.", {\
           "packageLocation": "./",\
@@ -2314,7 +2323,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["demo-yarn-0install-main", "workspace:."],\
             ["@types/jest", "npm:29.5.0"],\
             ["@types/node", "npm:18.15.3"],\
-            ["dts-bundle-generator", "npm:7.2.0"],\
+            ["demo-yarn-0install-libs", "git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#commit=c4053b59be1580f2f3b61e9a9a0c99f1da50104a"],\
             ["esbuild", "npm:0.17.12"],\
             ["jest", "virtual:82f66daeed04e3850d3f1d383ce59977a7bf387c1601b6b4b51c3788b32409e2d33d200dd4b082edde232c476f9300db0235e1ffbd244093b644e81eaa98d875#npm:29.5.0"],\
             ["jest-pnp-resolver", "virtual:82f66daeed04e3850d3f1d383ce59977a7bf387c1601b6b4b51c3788b32409e2d33d200dd4b082edde232c476f9300db0235e1ffbd244093b644e81eaa98d875#npm:1.2.3"],\
@@ -2359,17 +2368,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/diff-sequences-npm-29.4.3-ffe403944f-28b265e04f.zip/node_modules/diff-sequences/",\
           "packageDependencies": [\
             ["diff-sequences", "npm:29.4.3"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["dts-bundle-generator", [\
-        ["npm:7.2.0", {\
-          "packageLocation": "./.yarn/cache/dts-bundle-generator-npm-7.2.0-e8a7ec8659-0f00792b60.zip/node_modules/dts-bundle-generator/",\
-          "packageDependencies": [\
-            ["dts-bundle-generator", "npm:7.2.0"],\
-            ["typescript", "patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"],\
-            ["yargs", "npm:17.7.1"]\
           ],\
           "linkType": "HARD"\
         }]\
