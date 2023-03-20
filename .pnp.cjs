@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/jest", "npm:29.5.0"],\
             ["@types/node", "npm:18.15.3"],\
-            ["demo-yarn-0install-libs", "git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#commit=c4053b59be1580f2f3b61e9a9a0c99f1da50104a"],\
+            ["demo-yarn-0install-libs", "git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#commit=1be45de3c2e298161948b7c9e4459724147afcbf"],\
             ["esbuild", "npm:0.17.12"],\
             ["jest", "virtual:82f66daeed04e3850d3f1d383ce59977a7bf387c1601b6b4b51c3788b32409e2d33d200dd4b082edde232c476f9300db0235e1ffbd244093b644e81eaa98d875#npm:29.5.0"],\
             ["jest-pnp-resolver", "virtual:82f66daeed04e3850d3f1d383ce59977a7bf387c1601b6b4b51c3788b32409e2d33d200dd4b082edde232c476f9300db0235e1ffbd244093b644e81eaa98d875#npm:1.2.3"],\
@@ -2308,10 +2308,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["demo-yarn-0install-libs", [\
-        ["git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#commit=c4053b59be1580f2f3b61e9a9a0c99f1da50104a", {\
-          "packageLocation": "./.yarn/cache/demo-yarn-0install-libs-git+ssh-f2acfd3f2a-77c811ded1.zip/node_modules/demo-yarn-0install-libs/",\
+        ["git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#commit=1be45de3c2e298161948b7c9e4459724147afcbf", {\
+          "packageLocation": "./.yarn/cache/demo-yarn-0install-libs-git+ssh-719d2c2735-a53fc56a92.zip/node_modules/demo-yarn-0install-libs/",\
           "packageDependencies": [\
-            ["demo-yarn-0install-libs", "git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#commit=c4053b59be1580f2f3b61e9a9a0c99f1da50104a"]\
+            ["demo-yarn-0install-libs", "git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#commit=1be45de3c2e298161948b7c9e4459724147afcbf"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2323,7 +2323,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["demo-yarn-0install-main", "workspace:."],\
             ["@types/jest", "npm:29.5.0"],\
             ["@types/node", "npm:18.15.3"],\
-            ["demo-yarn-0install-libs", "git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#commit=c4053b59be1580f2f3b61e9a9a0c99f1da50104a"],\
+            ["demo-yarn-0install-libs", "git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#commit=1be45de3c2e298161948b7c9e4459724147afcbf"],\
             ["esbuild", "npm:0.17.12"],\
             ["jest", "virtual:82f66daeed04e3850d3f1d383ce59977a7bf387c1601b6b4b51c3788b32409e2d33d200dd4b082edde232c476f9300db0235e1ffbd244093b644e81eaa98d875#npm:29.5.0"],\
             ["jest-pnp-resolver", "virtual:82f66daeed04e3850d3f1d383ce59977a7bf387c1601b6b4b51c3788b32409e2d33d200dd4b082edde232c476f9300db0235e1ffbd244093b644e81eaa98d875#npm:1.2.3"],\

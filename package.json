@@ -18,6 +18,6 @@
     "build": "yarn node ./build.js"
   },
   "dependencies": {
-    "demo-yarn-0install-libs": "git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git"
+    "demo-yarn-0install-libs": "git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#semver:^1.0.2"
   }
 }

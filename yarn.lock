@@ -1636,10 +1636,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"demo-yarn-0install-libs@git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git":
-  version: 0.0.0
-  resolution: "demo-yarn-0install-libs@git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#commit=c4053b59be1580f2f3b61e9a9a0c99f1da50104a"
-  checksum: 77c811ded1024288e2bc715bf2c7192d68c221e4bf503870a62bf02db1102a37436e16b508503ff08a63eb2b327083c08565ef75414f7bbf3e5a8b9fb0e7a2f1
+"demo-yarn-0install-libs@git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#semver:^1.0.2":
+  version: 1.0.2
+  resolution: "demo-yarn-0install-libs@git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#commit=1be45de3c2e298161948b7c9e4459724147afcbf"
+  checksum: a53fc56a92f20eed9b33c056da25712af97c68f7e5fe956be981dab088de6ee4079c18b298f65e6b174f973c60b049e8ccd8d718b170746460fd0157fbe11183
   languageName: node
   linkType: hard
 
@@ -1649,7 +1649,7 @@ __metadata:
   dependencies:
     "@types/jest": ^29.5.0
     "@types/node": ^18.15.3
-    demo-yarn-0install-libs: "git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git"
+    demo-yarn-0install-libs: "git+ssh://git@github.com:kenlai93/demo-yarn-0install-libs.git#semver:^1.0.2"
     esbuild: ^0.17.12
     jest: ^29.5.0
     jest-pnp-resolver: ^1.2.3
